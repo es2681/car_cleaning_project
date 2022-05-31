@@ -1,0 +1,24 @@
+-- Creating the car_info table
+CREATE TABLE car_info (
+	make TEXT, 
+	fuel_type TEXT,
+	num_of_doors TEXT,
+	body_style TEXT,
+	drive_wheels TEXT, 
+	engine_location TEXT, 
+	wheel_base	REAL,
+	length	REAL,
+	width	REAL,
+	height	REAL, 
+	curb_weight	INT, 
+	engine_type	TEXT, 
+	num_of_cylinders TEXT,
+	engine_size	INT,
+	fuel_system	TEXT, 
+	compression_ratio REAL,	
+	horsepower INTEGER,
+	city_mpg INTEGER, 
+	highway_mpg INTEGER,  
+	price INTEGER);	
+
+SELECT * FROM  car_info;
